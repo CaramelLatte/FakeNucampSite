@@ -1,31 +1,33 @@
 {
-  "name": "nucampsite",
-  "version": "1.0.0",
-  "description": "This is a website for hte fictional campsites review site Nucamp",
-  "main": "index.html",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "lite": "lite-server",
-    "start": "npm rum lite"
-  },
-  "author": "Jared",
-  "license": "ISC",
-  "devDependencies": {
-    "lite-server": "^2.5.4"
-  },
-  "dependencies": {
-    "bootstrap": "^4.5.0",
-    "bootstrap-social": "^5.1.1",
-    "font-awesome": "^4.7.0",
-    "jquery": "^3.5.1",
-    "popper.js": "^1.16.1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/CaramelLatte/FakeNucampSite.git"
-  },
-  "bugs": {
-    "url": "https://github.com/CaramelLatte/FakeNucampSite/issues"
-  },
-  "homepage": "https://github.com/CaramelLatte/FakeNucampSite#readme"
+    "name": "nucampsite",
+    "version": "1.0.0",
+    "description": "This is a website for hte fictional campsites review site Nucamp",
+    "main": "index.html",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "lite": "lite-server",
+        "start": "npm rum lite",
+        "scss": "node-sass -o css/ css/"
+    },
+    "author": "Jared",
+    "license": "ISC",
+    "devDependencies": {
+        "lite-server": "^2.5.4",
+        "node-sass": "^4.14.1"
+    },
+    "dependencies": {
+        "bootstrap": "^4.5.0",
+        "bootstrap-social": "^5.1.1",
+        "font-awesome": "^4.7.0",
+        "jquery": "^3.5.1",
+        "popper.js": "^1.16.1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/CaramelLatte/FakeNucampSite.git"
+    },
+    "bugs": {
+        "url": "https://github.com/CaramelLatte/FakeNucampSite/issues"
+    },
+    "homepage": "https://github.com/CaramelLatte/FakeNucampSite#readme"
 }
