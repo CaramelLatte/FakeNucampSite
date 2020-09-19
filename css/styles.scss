@@ -1,4 +1,4 @@
-$color-primary : #3046C5;
+$color-primary: #3046C5;
 $color-secondary: #5637DD;
 $color-pale: #CEC8FF;
 $color-mid: #901CAD;
@@ -8,6 +8,7 @@ $body-font: "Open Sans",
 sans-serif;
 $header-font: "Lobster",
 cursive;
+$color-teal: #17A2B8;
 body {
     font-family: $body-font;
 }
@@ -63,4 +64,18 @@ header {
     right: 0;
     bottom: 0;
     z-index: 2;
+}
+
+#reserveModal {
+    .modal-header {
+        background-color: $color-teal;
+        color: white;
+    }
+}
+
+#loginModal {
+    .modal-header {
+        background-color: $color-mid;
+        color: white;
+    }
 }
